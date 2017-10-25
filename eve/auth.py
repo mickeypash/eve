@@ -21,7 +21,7 @@ def requires_auth(endpoint_class):
                            (item endpoint) and 'home' for the API entry point.
 
     .. versionchanged:: 0.0.7
-       Passing the 'resource' argument when inoking auth.authenticate()
+       Passing the 'resource' argument when invoking auth.authenticate()
 
     .. versionchanged:: 0.0.5
        Support for Cross-Origin Resource Sharing (CORS): 'OPTIONS' request
